@@ -26,6 +26,7 @@ THEN I can save my initials and my score
 Mock-Up
 The following animation demonstrates the application functionality:
 
+![img of coding quiz](https://github.com/sophiedeskin/always-sunny-quiz/blob/main/04-web-apis-homework-demo.gif)
 
 
 A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.
