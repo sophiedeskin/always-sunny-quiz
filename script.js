@@ -197,7 +197,7 @@ console.log(score)
   scoreCountSpan.textContent = score;
   
 
-  for (var i = 0; i < score; i++) {
+  for (var i = 0; i < score.length; i++) {
     var score = score[i];
 
     var li = document.createElement("li");
@@ -205,7 +205,7 @@ console.log(score)
     li.setAttribute("data-index", i);
 
     var button = document.createElement("button");
-    button.textContent = "Complete ✔️";
+    button.textContent = "Congragulations!";
 
     li.appendChild(button);
     scoreList.appendChild(li);
@@ -235,7 +235,7 @@ scoreForm.addEventListener("submit", function(event) {
   }
 
   score.push(scoreText);
-  scoreInput.value = "";
+  scoreInput.value = {};
  
 
   storedScore();
