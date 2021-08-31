@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.btn {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+    background-color: lightslategray;
+    font-weight: bold;
+    border-radius: 10px;
+    max-width: 100%;
+}
+button#start-btn.start-btn-class {
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px;
+}
+button#next-btn.next-btn-class {
+    padding: 10px;
+    font-size: medium;
+    border-radius: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
