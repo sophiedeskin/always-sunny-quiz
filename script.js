@@ -60,7 +60,7 @@ var questions = [
 
 
 
-      nextButton.addEventListener('click', () => {
+        nextButton.addEventListener('click', () => {
         currentQuestionIndex++
         setNextQuestion()
       })
@@ -194,10 +194,10 @@ var score = []
 function renderScores() {
 console.log(score)
   scoreList.innerHTML = "";
-  scoreCountSpan.textContent = score.length;
+  scoreCountSpan.textContent = score;
   
 
-  for (var i = 0; i < score.length; i++) {
+  for (var i = 0; i < score; i++) {
     var score = score[i];
 
     var li = document.createElement("li");
